@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="adicionar_lista">Adicionar Lista</string>
+    <string name="btn_minhas_listas">Minhas Listas</string>
+    <string name="btn_cadastrar_produto">Cadastrar Produto</string>
+    <string name="title_activity_minhas_listas">Minhas Listas de Compra</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.br.listadecompras.ActivityPrincipal">
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button android:id="@+id/btn_adicionar_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionar_lista"
+        android:onClick="abrirCriarLista"/>
+
+    <Button android:id="@+id/btn_minhas_listas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_minhas_listas"
+        android:onClick="abrirMinhasListas"/>
+
+    <Button android:id="@+id/btn_cadastrar_produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_cadastrar_produto"
+        android:onClick="abrirCadastrarProduto"/>
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
